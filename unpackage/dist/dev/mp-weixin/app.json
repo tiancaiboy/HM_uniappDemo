@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index/index_imgDetail",
+    "pages/index/index_album",
     "pages/horizontal/horizontal",
     "pages/video/video",
     "pages/search/search",
@@ -48,6 +50,5 @@
       }
     ]
   },
-  "usingComponents": {},
-  "sitemapLocation": "sitemap56.json"
+  "usingComponents": {}
 }

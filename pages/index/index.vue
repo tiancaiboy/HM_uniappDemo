@@ -1,6 +1,8 @@
 <template>
 	<view class="index">
+		<!-- 分段器 -->
 		<view class="tab_title">
+			<!-- 左边 -->
 			<view class="title_inner">
 				<uni-segmented-control 
 					:current="current" 
@@ -10,8 +12,10 @@
 					active-color="#b4237a">
 				</uni-segmented-control>
 			</view>
+			<!-- 右边 -->
 			<image src="../../static/index/search_icon.png" class="icon"></image>
 		</view>
+		<!-- 内容 -->
 		<view class="content">
 			<view v-if="current === 0">
 				<index-recommend></index-recommend>
@@ -55,7 +59,7 @@
 				}, {
 					title: "专辑"
 				}],
-				current: 0
+				current: 0 
 			}
 		},
 		methods: {
