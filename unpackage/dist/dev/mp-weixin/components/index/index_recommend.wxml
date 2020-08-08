@@ -1,1 +1,1 @@
-<view>推荐</view>
+<view class="recommend"><view class="recommend_wrap"><block wx:for="{{recommend}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="recommend_item"><image class="icon" src="{{item.thumb}}" mode="widthFix"></image></view></block></view><view class="moneths_wrap"><view class="moneths_title"><view class="moneths_title_info"><view class="moneths_info"><text class="text">18/</text>01月</view><view class="moneths_text">你负责美丽就好</view></view><view class="moneths_title_more">更多 ></view></view><view class="moneths_content"></view></view></view>
