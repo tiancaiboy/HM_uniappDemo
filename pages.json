@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+			"path": "pages/horizontal/horizontal",
+			"style": {
+				"navigationBarTitleText": "横屏",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "精美视频",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#000000",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#2C7ADE",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/tabbar/index_icon.png",
+			"selectedIconPath":"static/tabbar/tab_index.png",
+			"text":"首页"
+		},{
+			"pagePath":"pages/horizontal/horizontal",
+			"iconPath":"static/tabbar/tab_customer.png",
+			"selectedIconPath":"static/tabbar/customer_icon.png",
+			"text":"横屏"
+		},{
+			"pagePath":"pages/video/video",
+			"iconPath":"static/tabbar/tab_calendar.png",
+			"selectedIconPath":"static/tabbar/calendar_icon.png",
+			"text":"精美视频"
+		},{
+			"pagePath":"pages/search/search",
+			"iconPath":"static/tabbar/tab_finance.png",
+			"selectedIconPath":"static/tabbar/finace_icon.png",
+			"text":"搜索"
+		},{
+			"pagePath":"pages/mine/mine",
+			"iconPath":"static/tabbar/tab_my.png",
+			"selectedIconPath":"static/tabbar/my_icon.png",
+			"text":"我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
