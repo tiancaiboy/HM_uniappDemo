@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "index-categroy": "/components/index/index_categroy",
+    "index-new": "/components/index/index_new",
+    "index-recommend": "/components/index/index_recommend",
+    "index-album": "/components/index/index_album"
+  }
+}

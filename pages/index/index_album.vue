@@ -18,14 +18,18 @@
 		</view>
 		<!-- 剧照 -->
 		<view class="album_list">
-			<view class="album_item" v-for="item in wallpaper" :key="item.id">
-				<image :src="item.thumb+item.rule.replace('$<Height>',360)" mode="aspectFill" class="icon"></image>
+			<view class="album_item" v-for="(item,index) in wallpaper" :key="item.id">
+				<go-detail :list="wallpaper" :index="index">
+					<image :src="item.thumb+item.rule.replace('$<Height>',360)" mode="scaleToFill" class="icon"></image>
+				</go-detail>
 			</view>
 		</view>
 	</view>
 </template>
 
 <script>
+	import goDetail from '@/components/index/goDetail.vue'
+	
 	export default {
 		data() {
 			return {
@@ -58,6 +62,9 @@
 					icon: 'none'
 				})
 			}
+		},
+		components:{
+			goDetail
 		},
 		methods:{
 			getList() {
@@ -140,9 +147,8 @@
 			flex-wrap: wrap;
 			>.album_item{
 				margin-left: 5rpx;
+				width: 245rpx;
 				>.icon{
-					width: 245rpx;
-					height: 200rpx;
 				}
 			}
 		}

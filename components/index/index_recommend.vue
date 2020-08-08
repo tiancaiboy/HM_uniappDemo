@@ -33,8 +33,10 @@
 						<text class="text">热门</text>
 					</view>
 					<view class="hots_content">
-						<view class="hots_item" v-for="item in hots" :key="item.id">
-							<image :src="item.thumb" mode="widthFix" class="icon"></image>
+						<view class="hots_item" v-for="(item,index) in hots" :key="item.id">
+							<go-detail :list="hots" :index="index">
+								<image :src="item.thumb" mode="widthFix" class="icon"></image>
+							</go-detail>
 						</view>
 					</view>
 				</view>
@@ -45,7 +47,7 @@
 
 <script>
 	import moment from 'moment'
-	import goDetail from './goDetail.vue'
+	import goDetail from '@/components/index/goDetail.vue'
 
 	export default {
 		data() {
@@ -172,9 +174,8 @@
 
 				>.monthes_items {
 					margin-left: 5rpx;
-
+					width: 245rpx;
 					>.icon {
-						width: 245rpx;
 					}
 				}
 			}
@@ -198,9 +199,9 @@
 
 				>.hots_item {
 					margin-left: 5rpx;
-
+					width: 245rpx;
 					>.icon {
-						width: 245rpx;
+						
 					}
 				}
 			}
