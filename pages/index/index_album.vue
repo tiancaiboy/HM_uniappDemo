@@ -69,7 +69,8 @@
 		methods:{
 			getList() {
 				this.request({
-					url: `http://157.122.54.189:9088/image/v1/wallpaper/album/${this.id}/wallpaper`,
+					// url: `http://157.122.54.189:9088/image/v1/wallpaper/album/${this.id}/wallpaper`,
+					url:this.api.article.indexAlbum+`/${this.id}/wallpaper`,
 					data: this.params
 				}).then(result => {
 					console.log(result);

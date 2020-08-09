@@ -75,10 +75,11 @@
 		methods: {
 			getList() {
 				this.request({
-					url: 'http://157.122.54.189:9088/image/v3/homepage/vertical',
+					// url: 'http://157.122.54.189:9088/image/v3/homepage/vertical',
+					url: this.api.article.index,
 					data: this.params
 				}).then(result => {
-					// console.log(result)
+					 console.log(result)
 					//如果有就不重新渲染
 					if(this.recommend.length === 0){
 						// 推荐模块
