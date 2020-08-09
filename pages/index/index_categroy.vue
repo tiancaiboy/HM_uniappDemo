@@ -59,8 +59,7 @@
 			},
 			getList(){
 				this.request({
-					url: `https://service.picasso.adesk.com/v1/vertical/category/${this.id}/vertical`,
-					
+					url: `http://157.122.54.189:9088/image/v1/vertical/category/${this.id}/vertical`,
 					data: this.params
 				}).then(res => {
 					console.log(res);

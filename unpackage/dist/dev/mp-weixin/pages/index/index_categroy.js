@@ -206,8 +206,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     },
     getList: function getList() {
       this.request({
-        url: "https://service.picasso.adesk.com/v1/vertical/category/".concat(this.id, "/vertical"),
-
+        url: "http://157.122.54.189:9088/image/v1/vertical/category/".concat(this.id, "/vertical"),
         data: this.params }).
       then(function (res) {
         console.log(res);
