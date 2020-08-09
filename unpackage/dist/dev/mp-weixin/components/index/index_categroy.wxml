@@ -1,1 +1,1 @@
-<view>分类</view>
+<view class="index_cat"><view class="home_categroy"><block wx:for="{{category}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><view class="cate_item"><navigator class="icon" src="{{item.cover}}" mode="aspectFill" url="../../pages/index/index_categroy?id={item.id}" hover-class="none"></navigator><view class="cate_name">{{item.name}}</view></view></block></view></view>

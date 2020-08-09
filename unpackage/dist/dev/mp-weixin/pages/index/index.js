@@ -102,7 +102,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   uniSegmentedControl: function() {
-    return __webpack_require__.e(/*! import() | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/components/uni-segmented-control/uni-segmented-control.vue */ 58))
+    return __webpack_require__.e(/*! import() | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then(__webpack_require__.bind(null, /*! @/components/uni-segmented-control/uni-segmented-control.vue */ 204))
   }
 }
 var render = function() {
@@ -151,7 +151,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var indexCategroy = function indexCategroy() {__webpack_require__.e(/*! require.ensure | components/index/index_categroy */ "components/index/index_categroy").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_categroy.vue */ 65));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexNew = function indexNew() {__webpack_require__.e(/*! require.ensure | components/index/index_new */ "components/index/index_new").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_new.vue */ 70));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexRecommend = function indexRecommend() {Promise.all(/*! require.ensure | components/index/index_recommend */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/index/index_recommend")]).then((function () {return resolve(__webpack_require__(/*! @/components/index/index_recommend.vue */ 75));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexAlbum = function indexAlbum() {__webpack_require__.e(/*! require.ensure | components/index/index_album */ "components/index/index_album").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_album.vue */ 218));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniSegmentedControl = function uniSegmentedControl() {__webpack_require__.e(/*! require.ensure | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then((function () {return resolve(__webpack_require__(/*! @/components/uni-segmented-control/uni-segmented-control.vue */ 58));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var indexCategroy = function indexCategroy() {__webpack_require__.e(/*! require.ensure | components/index/index_categroy */ "components/index/index_categroy").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_categroy.vue */ 211));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexNew = function indexNew() {__webpack_require__.e(/*! require.ensure | components/index/index_new */ "components/index/index_new").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_new.vue */ 216));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexRecommend = function indexRecommend() {Promise.all(/*! require.ensure | components/index/index_recommend */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/index/index_recommend")]).then((function () {return resolve(__webpack_require__(/*! @/components/index/index_recommend.vue */ 221));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var indexAlbum = function indexAlbum() {__webpack_require__.e(/*! require.ensure | components/index/index_album */ "components/index/index_album").then((function () {return resolve(__webpack_require__(/*! @/components/index/index_album.vue */ 228));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var uniSegmentedControl = function uniSegmentedControl() {__webpack_require__.e(/*! require.ensure | components/uni-segmented-control/uni-segmented-control */ "components/uni-segmented-control/uni-segmented-control").then((function () {return resolve(__webpack_require__(/*! @/components/uni-segmented-control/uni-segmented-control.vue */ 204));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
@@ -212,7 +212,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       {
         title: "专辑" }],
 
-      current: 0 };
+      current: 1 };
 
   },
   methods: {

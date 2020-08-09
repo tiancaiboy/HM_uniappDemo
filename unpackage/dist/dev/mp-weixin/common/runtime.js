@@ -104,11 +104,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/index/index_recommend":1,"components/index/index_album":1,"components/uni-segmented-control/uni-segmented-control":1};
+/******/ 		var cssChunks = {"components/index/index_recommend":1,"components/index/index_album":1,"components/index/index_categroy":1,"components/uni-segmented-control/uni-segmented-control":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/index/index_recommend":"components/index/index_recommend","components/index/index_album":"components/index/index_album","components/index/index_categroy":"components/index/index_categroy","components/index/index_new":"components/index/index_new","components/uni-segmented-control/uni-segmented-control":"components/uni-segmented-control/uni-segmented-control","components/index/goDetail":"components/index/goDetail"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/index/index_recommend":"components/index/index_recommend","components/index/index_album":"components/index/index_album","components/index/index_categroy":"components/index/index_categroy","components/index/index_new":"components/index/index_new","components/uni-segmented-control/uni-segmented-control":"components/uni-segmented-control/uni-segmented-control","components/index/swiperAction":"components/index/swiperAction","components/index/goDetail":"components/index/goDetail"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

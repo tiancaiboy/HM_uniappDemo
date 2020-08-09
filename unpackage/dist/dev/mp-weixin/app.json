@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/index/index_categroy",
+    "pages/touchEnd_Start/touchEnd_Start",
     "pages/index/index_imgDetail",
     "pages/index/index_album",
     "pages/horizontal/horizontal",

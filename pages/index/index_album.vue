@@ -20,7 +20,7 @@
 		<view class="album_list">
 			<view class="album_item" v-for="(item,index) in wallpaper" :key="item.id">
 				<go-detail :list="wallpaper" :index="index">
-					<image :src="item.thumb+item.rule.replace('$<Height>',360)" mode="scaleToFill" class="icon"></image>
+					<image :src="item.thumb+item.rule.replace('$<Height>',360)" mode="aspectFill" class="icon"></image>
 				</go-detail>
 			</view>
 		</view>
@@ -149,6 +149,7 @@
 				margin-left: 5rpx;
 				width: 245rpx;
 				>.icon{
+					height: 160rpx;
 				}
 			}
 		}

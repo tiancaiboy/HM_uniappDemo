@@ -8,6 +8,20 @@
 				"navigationBarTextStyle": "white"
 			}
 		},{
+			"path": "pages/index/index_categroy",
+			"style": {
+				"navigationBarTitleText": "分类详情",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		},{
+			"path": "pages/touchEnd_Start/touchEnd_Start",
+			"style": {
+				"navigationBarTitleText": "手势滑动",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		},{
 			"path": "pages/index/index_imgDetail",
 			"style": {
 				"navigationBarTitleText": "详情",

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['touchstart',[['touchStart',['$event']]]],['touchend',[['touchEnd',['$event']]]]]}}" class="touch" bindtouchstart="__e" bindtouchend="__e">上下左右滑动手势</view>

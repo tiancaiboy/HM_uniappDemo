@@ -1,0 +1,6 @@
+
+.touch{
+	height: 600rpx;
+	background-color: #007AFF;
+}
+

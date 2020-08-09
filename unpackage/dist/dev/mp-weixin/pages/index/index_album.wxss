@@ -98,4 +98,7 @@ image {
   margin-left: 5rpx;
   width: 245rpx;
 }
+.album_message > .album_list > .album_item > .icon {
+  height: 160rpx;
+}
 
